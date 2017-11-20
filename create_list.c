@@ -6,7 +6,7 @@
 /*   By: clegirar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/15 13:10:05 by clegirar          #+#    #+#             */
-/*   Updated: 2017/11/18 18:25:27 by gdannay          ###   ########.fr       */
+/*   Updated: 2017/11/20 09:41:26 by gdannay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ static	t_lst			*ft_newlst(char **tab, int i, int j, char c)
 	new->c = c;
 	a = i;
 	t = 1;
-	while (i < a + 4)
+	while (tab[i] && i <= a + 4)
 	{
 		j = 0;
 		while (tab[i][j])
