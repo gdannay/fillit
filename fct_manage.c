@@ -57,7 +57,7 @@ void	ft_putfillit(char **tab, int size)
 	int		j;
 
 	i = 0;
-	while (tab[i] && i <= size)
+	while (i <= size)
 	{
 		j = 0;
 		while (j <= size)
