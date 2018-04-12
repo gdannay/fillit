@@ -9,6 +9,7 @@ to assemble. This file has a very specific format : every Tetrimino must exactly
 
 ## Usage
 make
+
 ./fillit <input_file>
 
 ## Example of an input file
